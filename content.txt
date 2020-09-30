@@ -1,0 +1,5 @@
+Đối tượng thuộc lớp java.io.File đại diện cho một file hoặc một thư mục. 
+Lớp này không có các tiện ích ghi đọc file, nhưng nó là đại diện an toàn cho file hơn là chuỗi kí tự tên file. 
+Hầu hết các lớp lấy tên file làm tham số cho hàm khởi tạo, chẳng hạn FileWriter hay FileInputStream, 
+cũng cung cấp hàm khởi tạo lấy một đối tượng File. Ta có thể tạo một đối tượng File, 
+kiểm tra xem đường dẫn có hợp lệ hay không, v.v.. rồi chuyển đối tượng File đó cho FileWriter hay FileInputStream.
